@@ -57,7 +57,7 @@ class HObbiebutton {
     async validation(expectedText) {
     const tableContent = this.table.getByText(expectedText)
     await expect(tableContent).toBeVisible()
-    console.log("Both are matched")
+    console.log("Both are matched.")
     }
 }
 module.exports = {HObbiebutton}
